@@ -33,10 +33,57 @@
 }
 
 a:link {
-  text-decoration: none;
   color: black;
+  text-decoration: none;
 }
 
 a:visited {
   color: black;
+}
+
+.gray{
+  background-color: aqua;
+}
+
+.rowContent{
+  display: flex;
+}
+
+.topImageLeft{
+  margin-left: 16.55px;
+}
+
+.topImageTop{
+  margin-top: 17.49px;
+}
+
+.textGreenb {
+  color: #507048;
+  font-size: 4.5rem;
+  font-weight: 800;
+}
+
+.carousel{
+  width: 1100px;
+  margin-left: 175px;
+}
+
+@media only screen and (max-width: 375px) {
+  .textGreenb {
+    color: #507048;
+    font-size: 3rem;
+    font-weight: 800;
+  }
+
+  .image1{
+    width: 50%;
+  }
+  
+  .image2{
+    width: 50%;
+  }
+  
+  .image3{
+    width: 275px;
+  }
 }
