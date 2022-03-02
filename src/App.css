@@ -68,6 +68,17 @@ a:visited {
   margin-left: 175px;
 }
 
+.containerCard{
+  width: 342px;
+  height: 530px;
+  background-color: aqua;
+  border-radius: 8px;
+}
+
+.contentCard{
+  padding: 36px;
+}
+
 @media only screen and (max-width: 375px) {
   .textGreenb {
     color: #507048;
