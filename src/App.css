@@ -3,3 +3,36 @@
 *{
   font-family: Inter;
 }
+
+.bgGreen {
+  background-color: #507048;
+}
+
+.textGreen {
+  color: #507048;
+}
+
+.bgLightGreen {
+  background-color: #F3F7F1;
+}
+
+.h30 {
+  min-height: 30vh;
+}
+
+.h10 {
+  min-height: 7vh;
+}
+
+.h50 {
+  height: 50vh;
+}
+
+.h40 {
+  height: 40vh;
+}
+
+a:link {
+  text-decoration: none;
+  color: black;
+}
