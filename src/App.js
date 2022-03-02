@@ -3,7 +3,9 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'bootstrap/dist/js/bootstrap.bundle'
 import MainPage from './components/pages/MainPage';
-import SecondPage from './components/pages/SecondPage';
+import TkitPage from './components/pages/tkitPage';
+import PgitPage from './components/pages/pgitPage/pgitPage';
+import SditPage from './components/pages/sditPage/sditPage';
 
 
 function App() {
@@ -11,7 +13,10 @@ function App() {
     <div>
       <Routes>
         <Route path='/' element={<MainPage />}></Route>
-        <Route path='/desc' element={<SecondPage/>}></Route>
+        <Route path='/tkit' element={<TkitPage/>}></Route>
+        <Route path='/pgit' element={<PgitPage />}></Route>
+        <Route path='/sdit' element={<SditPage />}></Route>
+
       </Routes>
     </div>
   );
